@@ -6,6 +6,5 @@ this is an introduction tutorial for the Django-Rest-Framework
 ```python
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py createsuperuser
-python manage.py loaddata fixtures/books.json
 python manage.py loaddata fixtures/gr_users.json 
+python manage.py loaddata fixtures/books.json
