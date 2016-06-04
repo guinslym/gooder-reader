@@ -1,0 +1,17 @@
+[
+{
+  "fields": {
+    "last_name": "Dolittle",
+    "shelves": [
+      1
+    ],
+    "books": [
+      1
+    ],
+    "user": 2,
+    "first_name": "Dottie"
+  },
+  "pk": 1,
+  "model": "gr_users.gruser"
+}
+]

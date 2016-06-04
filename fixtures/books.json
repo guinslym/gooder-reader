@@ -1,0 +1,41 @@
+[
+{
+  "model": "books.author",
+  "fields": {
+    "display_name": "",
+    "first_name": "Paulie",
+    "last_name": "Watson"
+  },
+  "pk": 1
+},
+{
+  "model": "books.book",
+  "fields": {
+    "title": "Tea time recipes",
+    "authors": [
+      1
+    ],
+    "desc": "Lovely things to serve with tea... Guinsly"
+  },
+  "pk": 1
+},
+{
+  "model": "books.book",
+  "fields": {
+    "title": "fun lunch and snack",
+    "authors": [
+      1
+    ],
+    "desc": "Hope you like raisins and crakers"
+  },
+  "pk": 2
+},
+{
+  "model": "books.shelf",
+  "fields": {
+    "title": "Recipe books",
+    "books": []
+  },
+  "pk": 1
+}
+]
